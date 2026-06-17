@@ -193,10 +193,18 @@
       text-align: center;
       padding: 20px;
     /* ===== The margin is like this so It could fit in the page properly, make changes if needed  ===== */
-      margin-top: 124px;
+      margin-top: auto;
     }
 
     footer a {
       color: #e91e63;
       margin: 0 10px;
     }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100dvh;
+      margin: 0; 
+    }
+    
