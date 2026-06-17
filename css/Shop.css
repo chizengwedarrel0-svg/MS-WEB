@@ -1,0 +1,173 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #1e2a5a;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background-color: #1e2a5a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #e91e63;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #e91e63;
+    }
+
+    .donate-btn {
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .donate-btn:hover {
+      background-color: #c2185b;
+    }
+
+    /* HERO */
+    .hero {
+      background-color: #1e2a5a;
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.4em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* SHOP GRID */
+    .shop-section {
+      padding: 60px 40px;
+    }
+
+    .shop-section h2 {
+      text-align: center;
+      color: #e91e63;
+      margin-bottom: 40px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.35s ease;
+      cursor: pointer;
+    }
+
+    /* Hover effects */
+    .product-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      filter: brightness(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+      margin-bottom: 10px;
+      color: #1e2a5a;
+    }
+
+    .price {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #e91e63;
+      margin-bottom: 15px;
+    }
+
+    /* Button animation */
+    .btn {
+      display: inline-block;
+      background-color: #1e2a5a;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #e91e63;
+      transform: scale(1.05);
+    }
+
+    /* Mixed background colours (NO PINK) */
+    .bg1 { background: #ffffff; }
+    .bg2 { background: #f0f3ff; } /* light navy tint */
+    .bg3 { background: #eef7ff; } /* soft blue */
+    .bg4 { background: #e9eef5; } /* grey-blue */
+    .bg5 { background: #f7f9fc; } /* very light neutral */
+
+    /* FOOTER */
+    footer {
+      background-color: #1e2a5a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #e91e63;
+      margin: 0 10px;
+    }
