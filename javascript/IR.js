@@ -1,7 +1,7 @@
 /*This will be very worth it ;)
 If this faah sound doesn't stop, I'm gonna do something (noob)*/ 
 
-const FolderLocation = './images/Pop-Up-Gallery'
+const FolderLocation = '../images/Pop-Up-Gallery';
 
 image_array = [
     'Art.jpg',
