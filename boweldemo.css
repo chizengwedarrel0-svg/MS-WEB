@@ -1,0 +1,196 @@
+<style>
+    
+ html {
+
+  height: -10000px;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+body {
+
+  font-family:"Times New Roman", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: black;
+
+  line-height: 1.6;
+
+
+ 
+
+  /* Background — SAME extension as your actual file */
+
+  background-color: white;
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  min-height: 100vh;
+\s
+
+}
+
+.box0 {
+     
+
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 320px auto 0 auto; /* better than top:320px */
+
+  position: relative;
+
+  z-index: 1;
+
+  text-align: center;
+
+  font-size: 50px;
+
+  padding: 0 20px;
+
+  box-sizing: border-box;
+
+    top: -180px;
+
+
+
+}
+
+.box1 {
+   
+
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 320px auto 0 auto; /* better than top:320px */
+
+  position: relative;
+
+  z-index: 1;
+
+
+
+  font-size: 50px;
+
+  padding: 0 20px;
+
+
+
+    top: -400px;
+
+    left: -800px;
+
+    border: 20px solid;
+    border-radius: 25px;
+
+    border-color:#e91e63; 
+
+
+}
+
+.image1 img {
+
+  position: relative;
+
+  right: -1780px;
+
+  top:-2180px;
+
+  max-width: 100%;
+
+  height: 1800px;
+  width: 1300px;
+  border: 50px;
+  border-radius: 25px;
+
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+ 
+  .navbar {
+      background-color: #1e2a5a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #e91e63;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #e91e63;
+    }
+
+    .donate-btn {
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .donate-btn:hover {
+      background-color: #c2185b;
+    }
+
+     footer {
+      background-color: #1e2a5a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 100px;
+
+    }
+
+    footer a {
+      color: #e91e63;
+      margin: 0 10px;
+    }
+</style>    
